@@ -30,7 +30,7 @@ class App extends Component {
       <div className='App'>
         <header className="App-header">
         <SearchForm getUser={this.getUser} />
-        { this.state.newUser ? <p> Wow! Keep working. You currently have { this.state.newUser } repositories </p> : <p> Please enter a username </p> }
+        { this.state.newUser ? <p> Wow! Keep working. You currently have { this.state.newUser } repositories </p> : <p> Oh no, no repos? Get to work! </p> }
         </header>
       </div>
     );
