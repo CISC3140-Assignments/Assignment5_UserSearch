@@ -28,8 +28,10 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
+        <header className="App-header">
         <SearchForm getUser={this.getUser} />
-        { this.state.newUser ? <p> Number of repos is:{ this.state.newUser } </p> : <p> Please enter a username </p> }
+        { this.state.newUser ? <p> Wow! Keep working. You currently have { this.state.newUser } repositories </p> : <p> Please enter a username </p> }
+        </header>
       </div>
     );
   }
