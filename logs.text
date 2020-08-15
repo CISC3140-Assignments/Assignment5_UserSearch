@@ -1,0 +1,46 @@
+npx create-react-app user-search
+git init
+git remote add origin https://github.com/CISC3140-Assignments/Assignment5_UserSearch.git
+cd user-search
+git push -u origin master
+git add .
+git status 
+git commit -m ""Used GitHub API to get user info"
+git push origin master
+git add .
+git status 
+git commit -m "Added a search form to look up username"
+git push origin master
+git add .
+git status 
+git commit -m "Imported SearchForm to the App.js"
+git push origin master
+git add .
+git status 
+git commit -m "Changed Port from 3000 to 3006"
+git push origin master
+git add .
+git status 
+git commit -m "Changed port 3000 to 3006"
+git push origin master
+git add .
+git status 
+git commit -m "Fixing port issue"
+git push origin master
+git add .
+git status 
+git commit -m "Added env file for port"
+git push origin master
+git add .
+git status 
+git commit -m "Added styling to the website"
+git push origin master
+git add .
+git status 
+git commit -m "Changed app title"
+git push origin master
+touch logs.text
+git add .
+git status 
+git commit -m "Added logs file"
+git push origin master
