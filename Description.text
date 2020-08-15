@@ -1,5 +1,6 @@
-Enter a GitHub username in the search bar. It returns the number of repositories this user has.
-A feature I could add is following the user entered in the search bar.
-The data presented in the app are the usernames and the number of repositories each user has.
-Refer to Logs.text to track changes I made throughout the development on this website: https://github.com/CISC3140-Assignments/Assignment5_UserSearch/blob/master/logs.text
-API used: https://api.github.com/users/
+#Description
+  - Enter a GitHub username in the search bar. It returns the number of repositories this user has.
+  - A feature I could add is following the user entered in the search bar.
+  - The data presented in the app are the usernames and the number of repositories each user has.
+  - Refer to Logs.text to track changes I made throughout the development on this website: https://github.com/CISC3140-Assignments/Assignment5_UserSearch/blob/master/logs.text
+  - API used: https://api.github.com/users/
