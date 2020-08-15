@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import axios from 'axios';
 
+import SearchForm from './components/SearchForm';
+
 class App extends Component {
   constructor(props){
     super(props);
